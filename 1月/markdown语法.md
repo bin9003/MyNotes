@@ -99,6 +99,7 @@ ___这是强调加粗的文字___
 u=702257389,1274025419&fm=27&gp=0.jpg "区块链")
 
 ```
+
 示例：
 
 ![blockchain](https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/
@@ -195,6 +196,14 @@ title可加可不加
 内容|内容|内容
 内容|内容|内容
 
+<br>
+
+| 项目        | 价格   |  数量  |
+| --------   | -----:  | :----:  |
+| 计算机     | \$1600 |   5     |
+| 手机        |   \$12   |   12   |
+| 管线        |    \$1    |  234  |
+
 ---
 
 # 代码
@@ -233,30 +242,6 @@ function (data) {
 ```
 
 ---
-
-
-# 流程图
-
-\```flow
-st=>start: 开始<br>
-op=>operation: My Operation<br>
-cond=>condition: Yes or No?<br>
-e=>end<br>
-st->op->cond<br>
-cond(yes)->e<br>
-cond(no)->op<br>
-
-\```
-
-```flow
-st=>start: 开始
-op=>operation: My Operation
-cond=>condition: Yes or No?
-e=>end
-st->op->cond
-cond(yes)->e
-cond(no)->op
-```
 
 
 # 转义字符
