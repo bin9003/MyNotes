@@ -37,6 +37,7 @@ drop table student;
 #查看表的结构
 describe student;  #可以简写为desc student;
  
+# 判断一个表是否存在
 
 #插入数据
 insert into student values(null,'aa','男','1988-10-2','......');
