@@ -38,6 +38,23 @@ drop table student;
 describe student;  #可以简写为desc student;
  
 # 判断一个表是否存在
+语法:
+SELECT table_name FROM information_schema.TABLES WHERE table_name ='表名';
+
+sql例子：
+SELECT table_name FROM information_schema.TABLES WHERE table_name ='t_iov_vehicle_owner_info'
+
+备注，sql也可以这样写：
+select count(*) from information_schema.tables where table_name='t_iov_vehicle_owner_info'
+
+# 判断表中一个字段是否存在
+语法：
+select count(*) from information_schema.columns where table_name = '表名' and column_name = '字段名'
+
+sql例子：
+select count(*) from information_schema.columns where table_name = 't_iov_vehicle_owner_info' and column_name = 'id'
+
+
 
 #插入数据
 insert into student values(null,'aa','男','1988-10-2','......');
